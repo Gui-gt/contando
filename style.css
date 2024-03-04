@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    background-color: dodgerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    width: 350px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+#button{
+    background-color:black;
+    border: none;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+#button:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.464);
+}
